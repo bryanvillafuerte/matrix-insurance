@@ -1,0 +1,25 @@
+@import "../../node_modules/rfs/scss.scss";
+
+.cardsSectionContainer {
+  padding-top: 50px;
+  padding-bottom: 100px;
+
+  .cardsSectionTitle {
+    margin-bottom: 50px;
+  }
+
+  .card {
+    border: none;
+    border-radius: 0;
+
+    button {
+      border: 1px solid #285c34;
+      color:  #285c34;
+
+      &:hover {
+        color: #f3f3f3;
+        background: #285c34;
+      }
+    }
+  }
+}

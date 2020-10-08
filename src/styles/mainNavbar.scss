@@ -1,0 +1,26 @@
+@import "../../node_modules/rfs/scss.scss";
+
+.navbarContainer {
+  padding: 0;
+  margin: 0;
+  background: #285c34;
+
+  .navbar {
+    background: #285c34;
+
+    .navbar-toggler {
+      border: none;
+    }
+  
+    .soMeLinks {
+      display: flex;
+      width: 5rem;
+      @include font-size(1.2rem);  
+    }
+  
+    .nav-link {
+      text-transform: uppercase;
+      transition: all linear .2s;
+    }
+  }
+}

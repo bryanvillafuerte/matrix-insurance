@@ -1,0 +1,20 @@
+@import "~bootstrap/scss/bootstrap";
+
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: #f2f2f2;
+  background-image: url("https://www.transparenttextures.com/patterns/axiom-pattern.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+
+  .mainContainer {
+    padding: 0;
+    margin: 0;
+  }
+
+  .text-dark {
+    color: #222222 !important;
+  }
+}

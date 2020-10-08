@@ -1,0 +1,63 @@
+@import "../../node_modules/rfs/scss.scss";
+
+.programSectionContainer {
+  padding-left: 0;
+  padding-right: 0;
+
+  .programSectionItem {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    div {
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+
+      h2 {
+        margin-bottom: 30px;
+      }
+
+      .display-4 {
+        @include font-size(3rem);
+        font-weight: 400;
+      }
+
+      p {
+        @include font-size(1.1rem);
+      }
+
+      button {
+        margin-top: 50px;
+      }
+    }
+
+    button {
+      background: #285c34;
+      border-color: #285c34;
+      transition: all linear .2s;
+
+      &:hover {
+        color: #285c34 !important;
+        background: #f3f3f3  !important;
+        border: solid 1px #285c34;
+      }
+    }
+  }
+
+  .rightItem {
+    background: #285c34;
+
+    button {
+      background: #f3f3f3;
+      color: #285c34;
+      border-color: #f3f3f3;
+      transition: all linear .2s;
+
+      &:hover {
+        color: #f3f3f3 !important;
+        background: #285c34  !important;
+        border: solid 1px #f3f3f3;
+      }
+    }
+  }
+}

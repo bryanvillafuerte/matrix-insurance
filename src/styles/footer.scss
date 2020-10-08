@@ -1,0 +1,43 @@
+@import "../../node_modules/rfs/scss.scss";
+
+.footerContainer {
+  background: #07311C;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  .lead {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .soMe {
+    margin-left: 0;
+    margin-top: 15px;
+    @include font-size(2rem);
+  }
+
+  h4 {
+    margin-bottom: 30px;
+  }
+
+  button {
+    border-radius: 0;
+    margin-right: auto;
+  }
+
+  .columns {
+    margin-bottom: 50px;
+  }
+}
+
+.copyright {
+  padding: 10px;
+  background: #242424;
+
+  p {
+    padding-top: 10px;
+    padding-bottom: 0;
+  }
+}

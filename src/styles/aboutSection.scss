@@ -1,0 +1,21 @@
+@import "../../node_modules/rfs/scss.scss";
+
+.aboutContainer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background: #e2e2e2;
+
+  .lead {
+    @include font-size(1.1rem);
+  }
+
+  .imgContainer {
+    overflow: hidden;
+
+    img {
+      width: 120%;
+      object-fit: cover;
+    }
+  }
+  
+}

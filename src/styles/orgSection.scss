@@ -1,0 +1,37 @@
+@import "../../node_modules/rfs/scss.scss";
+
+.orgSectionContainer {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  min-height: 50vh;
+
+  .display-4 {
+    @include font-size(3rem);
+    font-weight: 400;
+  }
+
+  .card {
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+
+    .card-img-top {
+      width: 250px;
+      padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    button {
+      background: #285c34;
+      border-color: #285c34;
+      transition: all linear .2s;
+
+      &:hover {
+        color: #285c34 !important;
+        background: #f3f3f3  !important;
+        border: solid 1px #285c34;
+      }
+    }
+  }
+}

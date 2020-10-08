@@ -1,0 +1,24 @@
+@import "../../node_modules/rfs/scss.scss";
+
+.newsContainer {
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+  .display-4 {
+    @include font-size(3rem);
+    font-weight: 400;
+  }
+
+  .lead {
+    @include font-size(1.1rem);
+  }
+
+  .card {
+    border: none;
+    border-radius: 0;
+
+    button {
+      color:  #285c34;
+    }
+  }
+}
